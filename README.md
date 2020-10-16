@@ -14,8 +14,8 @@ This plugin provides the following commands:
 If you add the following settings to vimrc, you can resize the window as shown in the Gif above:
 
 ```vim
-noremap <silent> <C-Down>  :TlrDown<CR>
-noremap <silent> <C-Up>    :TlrUp<CR>
-noremap <silent> <C-Left>  :TlrLeft<CR>
-noremap <silent> <C-Right> :TlrRight<CR>
+nnoremap <silent> <C-Down>  :TlrDown<CR>
+nnoremap <silent> <C-Up>    :TlrUp<CR>
+nnoremap <silent> <C-Left>  :TlrLeft<CR>
+nnoremap <silent> <C-Right> :TlrRight<CR>
 ```
