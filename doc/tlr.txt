@@ -19,7 +19,6 @@ COMMANDS                                                        *tlr-commands*
 ==============================================================================
 ABOUT                                                              *tlr-about*
 
-
 |tlr| is developed by obcat and licensed under the MIT License.
 Visit the project page for the latest version:
 
