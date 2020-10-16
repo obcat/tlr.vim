@@ -1,0 +1,33 @@
+*tlr.txt*  Tmux-Like window Resizer
+
+==============================================================================
+COMMANDS                                                        *tlr-commands*
+
+*:TlrDown*
+    Resize current window downward.
+
+*:TlrUp*
+    Resize current window upward.
+
+*:TlrLeft*
+    Resize current window leftward.
+
+*:TlrRight*
+    Resize current window rightward.
+
+
+==============================================================================
+ABOUT                                                              *tlr-about*
+
+
+|tlr| is developed by obcat and licensed under the MIT License.
+Visit the project page for the latest version:
+
+  https://github.com/obcat/tlr.vim
+
+
+==============================================================================
+vim:ft=help:norl:ts=2:sw=2:tw=78:
+*tlr.txt*  Tmux-Like window Resizer
+
+==============================================================================
