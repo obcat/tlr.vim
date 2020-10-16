@@ -28,6 +28,3 @@ Visit the project page for the latest version:
 
 ==============================================================================
 vim:ft=help:norl:ts=2:sw=2:tw=78:
-*tlr.txt*  Tmux-Like window Resizer
-
-==============================================================================
