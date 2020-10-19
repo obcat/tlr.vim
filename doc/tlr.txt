@@ -29,11 +29,11 @@ be added to your vimrc. For example, you can set it up as follows:
 ==============================================================================
 ABOUT                                                              *tlr-about*
 
-|tlr| is developed by obcat and licensed under the MIT License.
+tlr is developed by obcat and licensed under the MIT License.
 Visit the project page for the latest version:
 
-  https://github.com/obcat/tlr.vim
+    https://github.com/obcat/tlr.vim
 
 
 ==============================================================================
-vim:ft=help:norl:ts=2:sw=2:tw=78:
+vim:ft=help:norl:ts=4:sw=4:tw=78:
