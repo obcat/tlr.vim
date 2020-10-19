@@ -1,19 +1,29 @@
 *tlr.txt*  Tmux-Like window Resizer
 
 ==============================================================================
-COMMANDS                                                        *tlr-commands*
+MAPPINGS                                                        *tlr-mappings*
 
-*:TlrDown*
+tlr defines the following <Plug> mappings:
+
+<Plug>(tlr-down)                                                    *tlr-down*
     Resize current window downward.
 
-*:TlrUp*
+<Plug>(tlr-up)                                                        *tlr-up*
     Resize current window upward.
 
-*:TlrLeft*
+<Plug>(tlr-left)                                                    *tlr-left*
     Resize current window leftward.
 
-*:TlrRight*
+<Plug>(tlr-right)                                                  *tlr-right*
     Resize current window rightward.
+
+Note that the mappings are not assigned to any key so some settings need to
+be added to your vimrc. For example, you can set it up as follows:
+
+    nmap <C-Down>  <Plug>(tlr-down)
+    nmap <C-Up>    <Plug>(tlr-up)
+    nmap <C-Left>  <Plug>(tlr-left)
+    nmap <C-Right> <Plug>(tlr-right)
 
 
 ==============================================================================

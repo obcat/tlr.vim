@@ -3,7 +3,7 @@ if exists('g:loaded_tlr')
 endif
 let g:loaded_tlr = 1
 
-command! TlrDown  call tlr#down()
-command! TlrUp    call tlr#up()
-command! TlrLeft  call tlr#left()
-command! TlrRight call tlr#right()
+nnoremap <silent> <Plug>(tlr-down)  :<C-u>call tlr#down()<CR>
+nnoremap <silent> <Plug>(tlr-up)    :<C-u>call tlr#up  ()<CR>
+nnoremap <silent> <Plug>(tlr-left)  :<C-u>call tlr#left()<CR>
+nnoremap <silent> <Plug>(tlr-right) :<C-u>call tlr#right()<CR>
