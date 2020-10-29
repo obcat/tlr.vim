@@ -5,8 +5,13 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 
+function! s:has_win(dir) abort
+  return winnr() != winnr(a:dir)
+endfunction
+
+
 function! tlr#down() abort
-  if winnr() != winnr('j')
+  if s:has_win('j')
     resize +1
   else
     call win_execute(win_getid(winnr('k')), 'resize +1')
@@ -14,7 +19,7 @@ function! tlr#down() abort
 endfunction
 
 function! tlr#up() abort
-  if winnr() != winnr('j') || winnr() == winnr('k')
+  if s:has_win('j') || !s:has_win('k')
     resize -1
   else
     resize +1
@@ -22,7 +27,7 @@ function! tlr#up() abort
 endfunction
 
 function! tlr#left() abort
-  if winnr() != winnr('l')
+  if s:has_win('l')
     vertical resize -1
   else
     call win_execute(win_getid(winnr('h')), 'vertical resize -1')
@@ -30,7 +35,7 @@ function! tlr#left() abort
 endfunction
 
 function! tlr#right() abort
-  if winnr() != winnr('l')
+  if s:has_win('l')
     vertical resize +1
   else
     vertical resize -1
