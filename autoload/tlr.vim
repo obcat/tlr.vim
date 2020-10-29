@@ -1,6 +1,10 @@
 " Maintainer: obcat <obcat@icloud.com>
 " License:    MIT License
 
+let s:save_cpo = &cpo
+set cpo&vim
+
+
 function! tlr#down() abort
   if winnr() != winnr('j')
     resize +1
@@ -32,3 +36,7 @@ function! tlr#right() abort
     vertical resize -1
   endif
 endfunction
+
+
+let &cpo = s:save_cpo
+unlet s:save_cpo
