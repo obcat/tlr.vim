@@ -1,3 +1,6 @@
+" Maintainer: obcat <obcat@icloud.com>
+" License:    MIT License
+
 if exists('g:loaded_tlr')
   finish
 endif

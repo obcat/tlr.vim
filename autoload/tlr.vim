@@ -1,3 +1,6 @@
+" Maintainer: obcat <obcat@icloud.com>
+" License:    MIT License
+
 function! tlr#down() abort
   if winnr() != winnr('j')
     resize +1
