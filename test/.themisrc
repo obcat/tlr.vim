@@ -1,0 +1,5 @@
+let g:tlr_resize_steps = 2
+nmap <C-Down>  <Plug>(tlr-down)
+nmap <C-Up>    <Plug>(tlr-up)
+nmap <C-Left>  <Plug>(tlr-left)
+nmap <C-Right> <Plug>(tlr-right)
